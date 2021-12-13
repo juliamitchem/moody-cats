@@ -56,6 +56,7 @@ p {
 h1 {
     font-family: 'Berkshire Swash', 'Times New Roman', serif;
     text-align: center;
+    align-content: center;
     font-size: 5rem;
     color: #000;
 }
