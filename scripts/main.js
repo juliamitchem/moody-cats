@@ -79,6 +79,14 @@ image3T.onclick = (e) => {
    e.target.setAttribute('src', text4T);
 };
 
+image4T.onclick = (e) => {
+  image1T.style.display = 'block';
+  image4T.style.display = 'none';
+   e.target.setAttribute('src', image1T);
+  text1T.style.display = 'block';
+  text4T.style.display = 'none';
+   e.target.setAttribute('src', text1T);
+};
 //eyes
 
 let image1E = document.querySelector('#dilatedpupils');
@@ -122,6 +130,15 @@ image3E.onclick = (e) => {
    text4E.style.display = 'block';
    text3E.style.display = 'none';
     e.target.setAttribute('src', text4E);
+};
+
+image4E.onclick = (e) => {
+  image1E.style.display = 'block';
+  image4E.style.display = 'none';
+   e.target.setAttribute('src', image1E);
+   text1E.style.display = 'block';
+   text4E.style.display = 'none';
+    e.target.setAttribute('src', text1E);
 };
 
 //body
@@ -169,6 +186,15 @@ image3B.onclick = (e) => {
    e.target.setAttribute('src', text4B);
 };
 
+image4B.onclick = (e) => {
+  image1B.style.display = 'block';
+  image4B.style.display = 'none';
+   e.target.setAttribute('src', image1B);
+  text1B.style.display = 'block';
+  text4B.style.display = 'none';
+   e.target.setAttribute('src', text1B);
+};
+
 //ears
 
 let image1EA = document.querySelector('#perkedup');
@@ -212,4 +238,13 @@ image3EA.onclick = (e) => {
   text4EA.style.display = 'block';
   text3EA.style.display = 'none';
    e.target.setAttribute('src', text4EA);
+};
+
+image4EA.onclick = (e) => {
+  image1EA.style.display = 'block';
+  image4EA.style.display = 'none';
+   e.target.setAttribute('src', image1EA);
+  text1EA.style.display = 'block';
+  text4EA.style.display = 'none';
+   e.target.setAttribute('src', text1EA);
 };
