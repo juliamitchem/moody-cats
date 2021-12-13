@@ -36,8 +36,8 @@ div {
 img {
   display: block;
   border: 1px solid #fff;
-  align-items: center;
-  margin: 4rem;
+  margin: auto;
+
 }
 
 img:hover {
