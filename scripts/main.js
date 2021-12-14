@@ -57,7 +57,7 @@ image1T.onclick = (e) => {
   image1T.style.display = 'none';
   text2T.style.display = 'block';
   text1T.style.display = 'none';
-   e.target.setAttribute('src', image2T);
+   e.target.setAttribute('images/tail/scaredtail.jpeg', image2T);
    e.target.setAttribute('src', text2T);
 };
 
@@ -66,27 +66,28 @@ image2T.onclick = (e) => {
   image2T.style.display = 'none';
   text3T.style.display = 'block';
   text2T.style.display = 'none';
-   e.target.setAttribute('src', image3T);
+   e.target.setAttribute('images/tail/tailwave.jpeg', image3T);
    e.target.setAttribute('src', text3T);
 };
 
 image3T.onclick = (e) => {
   image4T.style.display = 'block';
   image3T.style.display = 'none';
-   e.target.setAttribute('src', image4T);
   text4T.style.display = 'block';
   text3T.style.display = 'none';
+   e.target.setAttribute('images/tail/tailwaver.jpeg', image4T);
    e.target.setAttribute('src', text4T);
 };
 
 image4T.onclick = (e) => {
   image1T.style.display = 'block';
   image4T.style.display = 'none';
-   e.target.setAttribute('src', image1T);
   text1T.style.display = 'block';
   text4T.style.display = 'none';
-   e.target.setAttribute('src', text1T);
+  e.target.setAttribute('images/tail/taildown.jpeg', image1T);
+  e.target.setAttribute('src', text1T);
 };
+
 //eyes
 
 let image1E = document.querySelector('#dilatedpupils');
@@ -108,36 +109,36 @@ text4E.style.display = 'none';
 image1E.onclick = (e) => {
   image2E.style.display = 'block';
   image1E.style.display = 'none';
-   e.target.setAttribute('src', image2E);
   text2E.style.display = 'block';
   text1E.style.display = 'none';
+  e.target.setAttribute('images/eyes/half-closed.jpeg', image2E);
    e.target.setAttribute('src', text2E);
 };
 
 image2E.onclick = (e) => {
   image3E.style.display = 'block';
   image2E.style.display = 'none';
-   e.target.setAttribute('src', image3E);
    text3E.style.display = 'block';
    text2E.style.display = 'none';
-    e.target.setAttribute('src', text3E);
+   e.target.setAttribute('images/eyes/slits.jpeg', image3E);
+   e.target.setAttribute('src', text3E);
 };
 
 image3E.onclick = (e) => {
   image4E.style.display = 'block';
   image3E.style.display = 'none';
-   e.target.setAttribute('src', image4E);
    text4E.style.display = 'block';
    text3E.style.display = 'none';
+    e.target.setAttribute('images/eyes/stare.jpeg', image4E);
     e.target.setAttribute('src', text4E);
 };
 
 image4E.onclick = (e) => {
   image1E.style.display = 'block';
   image4E.style.display = 'none';
-   e.target.setAttribute('src', image1E);
    text1E.style.display = 'block';
    text4E.style.display = 'none';
+    e.target.setAttribute('images/eyes/dilatedpupils.jpeg', image1E);
     e.target.setAttribute('src', text1E);
 };
 
@@ -162,36 +163,36 @@ text4B.style.display = 'none';
 image1B.onclick = (e) => {
   image2B.style.display = 'block';
   image1B.style.display = 'none';
-   e.target.setAttribute('src', image2B);
   text2B.style.display = 'block';
   text1B.style.display = 'none';
+  e.target.setAttribute('images/body/sly.jpeg', image2B);
    e.target.setAttribute('src', text2B);
 };
 
 image2B.onclick = (e) => {
   image3B.style.display = 'block';
   image2B.style.display = 'none';
-   e.target.setAttribute('src', image3B);
   text3B.style.display = 'block';
   text2B.style.display = 'none';
+  e.target.setAttribute('images/body/relaxed.jpeg', image3B);
    e.target.setAttribute('src', text3B);
 };
 
 image3B.onclick = (e) => {
   image4B.style.display = 'block';
   image3B.style.display = 'none';
-   e.target.setAttribute('src', image4B);
   text4B.style.display = 'block';
   text3B.style.display = 'none';
+  e.target.setAttribute('images/body/inquisitive.jpeg', image4B);
    e.target.setAttribute('src', text4B);
 };
 
 image4B.onclick = (e) => {
   image1B.style.display = 'block';
   image4B.style.display = 'none';
-   e.target.setAttribute('src', image1B);
   text1B.style.display = 'block';
   text4B.style.display = 'none';
+   e.target.setAttribute('images/body/play.jpeg', image1B);
    e.target.setAttribute('src', text1B);
 };
 
@@ -216,35 +217,35 @@ text4EA.style.display = 'none';
 image1EA.onclick = (e) => {
   image2EA.style.display = 'block';
   image1EA.style.display = 'none';
-   e.target.setAttribute('src', image2EA);
   text2EA.style.display = 'block';
   text1EA.style.display = 'none';
+  e.target.setAttribute('images/ears/flat.jpeg', image2EA);
    e.target.setAttribute('src', text2EA);
 };
 
 image2EA.onclick = (e) => {
   image3EA.style.display = 'block';
   image2EA.style.display = 'none';
-   e.target.setAttribute('src', image3EA);
   text3EA.style.display = 'block';
   text2EA.style.display = 'none';
+     e.target.setAttribute('images/ears/side.jpeg', image3EA);
    e.target.setAttribute('src', text3EA);
 };
 
 image3EA.onclick = (e) => {
   image4EA.style.display = 'block';
   image3EA.style.display = 'none';
-   e.target.setAttribute('src', image4EA);
   text4EA.style.display = 'block';
   text3EA.style.display = 'none';
+   e.target.setAttribute('images/ears/forward.jpeg', image4EA);
    e.target.setAttribute('src', text4EA);
 };
 
 image4EA.onclick = (e) => {
   image1EA.style.display = 'block';
   image4EA.style.display = 'none';
-   e.target.setAttribute('src', image1EA);
   text1EA.style.display = 'block';
   text4EA.style.display = 'none';
+   e.target.setAttribute('images/ears/perkedup.jpeg', image1EA);
    e.target.setAttribute('src', text1EA);
 };
